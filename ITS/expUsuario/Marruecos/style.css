@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- NAVBAR ---------- */
+
+.navBar{
+    background-color: red;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 20px 40px;
+}
+
+.navBar img{
+    width: 80px;
+}
+
+.navBar ul{
+    display: flex;
+
+    gap: 40px;
+
+    list-style: none;
+}
+
+.navBar a{
+    color: white;
+
+    font-size: 18px;
+
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+/* ---------- HERO ---------- */
+
+.hero{
+    background-color: blue;
+
+    height: 80vh;
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-direction: column;
+
+    overflow: hidden;
+}
+
+#titleHero{
+    position: absolute;
+
+    top: 80px;
+
+    z-index: 1;
+
+    color: white;
+
+    font-size: 5rem;
+}
+
+#hakimiHero{
+    position: absolute;
+
+    z-index: 2;
+
+    max-height: 75%;
+}
+
+#buttonHero{
+    position: absolute;
+
+    bottom: 70px;
+
+    z-index: 3;
+
+    padding: 14px 40px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background-color: red;
+
+    color: white;
+
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+/* ---------- HISTORIA ---------- */
+
+.historia{
+    display: flex;
+
+
+
+}
+
+#historiaCardIzq{
+    background-color: red;
+    
+    padding: 8px;
+    margin: 8px;
+    margin-right: 200px;
+    margin-left: 50px;
+
+    max-width: 500px;
+
+    border-radius: 30px;
+}
+
+
+#historiaCardDer1 ,
+#historiaCardDer2 ,
+#historiaCardDer3{
+    display: flex;
+    padding: 5px;
+    border-radius: 25px;
+
+    background-color: pink;
+
+    width: 300px;
+
+} 
+
+/*Tamaño de imagenes de las cards en la derecha*/
+#historiaCardDer1 img,
+#historiaCardDer2 img,
+#historiaCardDer3 img{
+
+    height: 70px;
+}
+
+.historiaDer{
+    display: flex;
+    flex-direction: column;
+}
+
+.historiaDer h2{
+    color: red;
+
+}
+
+#ultimop{
+    background-color: cornflowerblue;
+    width: 300px;
+}
