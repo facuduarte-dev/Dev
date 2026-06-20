@@ -114,7 +114,7 @@
 #historiaCardIzq{
     background-color: red;
     
-    padding: 8px;
+    padding: 10px;
     margin: 8px;
     margin-right: 200px;
     margin-left: 50px;
@@ -159,4 +159,40 @@
 #ultimop{
     background-color: cornflowerblue;
     width: 300px;
+}
+
+
+
+.vestimenta{
+    display: flex;
+    position: relative;
+}
+
+.vestimenta div{
+    display: flex;
+    justify-content: center;
+}
+
+
+.vestimentaTxt{
+    position: relative;
+    background-color: red;
+    width: 600px;
+
+    padding: 40px;
+    border-radius: 30px;
+
+    z-index: 2;
+
+}
+
+#separadorHistoria{
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+
+#historiaCamiseta{
+    position: absolute;
+    z-index: 10;
 }
