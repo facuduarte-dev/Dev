@@ -1,87 +1,163 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marruecos</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marruecos</title>
+
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <nav class="navBar">
-            <img src="" alt="logoFederacion">
+
+<header>
+<nav class="navBar">
+
+<img src="./src/logo-federacion.svg" alt="logoFederacion">
+
+<ul>
+<li><a>HISTORIA</a></li>
+<li><a>VESTIMENTA</a></li>
+<li><a>JUGADORES</a></li>
+</ul>
+
+<img src="./src/logo-fifa.svg" alt="logoFifa">
+
+</nav>
+</header>
+
+<section class="hero">
+
+<h1 id="titleHero">MARRUECOS</h1>
+
+<img id="hakimiHero" src="./src/hakimi.png">
+
+<button id="buttonHero">PLANTEL</button>
+
+</section>
+
+<section class="historia">
+<div class="seccionIntro">
+<span class="etiquetaSeccion">Historia y logros</span>
+<h2>Marruecos en el mapa mundial</h2>
+<p>Una selección con carácter, estadio, hinchada y una identidad muy marcada. Su recorrido combina tradición africana, talento técnico y una presencia cada vez más fuerte en la élite del fútbol.</p>
+</div>
+
+<div class="historiaLayout">
+
+<article class="tarjetaHistoria tarjetaHistoriaPrincipal">
+<span class="miniEtiqueta">Historia</span>
+<h3>La Selección de Marruecos</h3>
+<p>La Selección de Marruecos es uno de los equipos más emblemáticos de África. Su crecimiento, su identidad y su carácter competitivo la transformaron en una selección respetada en todo el mundo.</p>
+</article>
+
+<article class="tarjetaHistoria tarjetaLogros">
+<span class="miniEtiqueta">Logros destacados</span>
+<div class="logroItem"><strong>2022</strong><span>Semifinal del Mundial</span></div>
+<div class="logroItem"><strong>1° África</strong><span>Primer equipo africano en semifinales</span></div>
+<div class="logroItem"><strong>AFCON</strong><span>Campeón de la Copa Africana</span></div>
+</article>
+
+</div>
+
+</section>
+
+<section class="vestimenta">
+
+<div class="vestimentaTxt">
+<span class="etiquetaSeccion">Vestimenta</span>
+<h2>Rojo, verde y orgullo marroquí</h2>
+<p>La camiseta de Marruecos mantiene como base el rojo y el verde de la bandera nacional. El diseño transmite orgullo, fuerza y una estética moderna que combina símbolos tradicionales con detalles actuales. Es una equipación reconocible, elegante y bien marcada por la identidad del país.</p>
+<p>La versión titular destaca por su color rojo intenso con detalles verdes, mientras que las variantes alternativas mantienen la misma esencia visual para no perder presencia ni carácter. El resultado es una vestimenta clara, potente y muy fácil de identificar en cualquier torneo internacional.</p>
+</div>
+
+<img id="historiaCamiseta" src="./src/vestimenta.png">
+
+</section>
+
+<!-- 🔥 CANCHA -->
+<section class="cancha">
+
+<!-- DELANTEROS -->
+<div class="jugador" data-nombre="En-Nesyri" data-pos="Delantero" data-suplentes="El Kaabi, Aboukhlal" style="top:15%; left:50%;">
+<img src="./src/jugador-placeholder.svg">
+<span>En-Nesyri</span>
+</div>
 
 
-            <ul>
-                <li><a>HISTORIA</a></li>
-                <li><a>VESTIMENTA</a></li>
-                <li><a>JUGADORES</a></li>
-            </ul>
-            
-            <img src="" alt="logoFifa">
 
-        </nav>
-    </header>
-    <section class="hero">
-        <h1 id="titleHero">MARRUECOS</h1>
-        <img id="hakimiHero" src="./src/hakimi.png" alt="Hakimi">
-        <button id="buttonHero">PLANTEL</button>
-    </section>
-    <section class="historia">
+<div class="jugador" data-nombre="Boufal" data-pos="Extremo" data-suplentes="Abde" style="top:25%; left:25%;">
+<img  id="imagenmodal"src="./src/jugador-placeholder.svg">
+<span>Boufal</span>
+</div>
 
-        <div class="historiaIzq">
-            <h2>HISTORIA DE</h2>
-            <h2>La Seleccion Marroqui</h2>
+<!-- MEDIO -->
+<div class="jugador" data-nombre="Amrabat" data-pos="Mediocentro" data-suplentes="El Khannouss" style="top:45%; left:50%;">
+<img src="./src/jugador-placeholder.svg">
+<span>Amrabat</span>
+</div>
 
-            <div id="historiaCardIzq">
-                <p>La Selección de Marruecos (Los Leones del Atlas) representa al país desde 1957 y es una de las selecciones más importantes del fútbol africano.
-                    A lo largo de su historia ha participado en varias Copas del Mundo, creciendo poco a poco en el escenario internacional y consolidándose como un equipo competitivo.
-                    Su evolución más destacada se dio en las últimas décadas, donde pasó de ser una selección emergente a una de las más respetadas de África y con presencia constante en torneos internacionales.
-                </p>
-            </div>
-        </div>
-        
-            <img class="separador" src="./src/separador.png" alt="Separador">
+<div class="jugador" data-nombre="Ounahi" data-pos="Interior" data-suplentes="El Aynaoui" style="top:55%; left:35%;">
+<img src="./src/jugador-placeholder.svg">
+<span>Ounahi</span>
+</div>
 
-        <div class="historiaDer">
-            <h2>LOGROS DESTACADOS</h2>
+<div class="jugador" data-nombre="Amallah" data-pos="Interior" data-suplentes="Richardson" style="top:55%; left:65%;">
+<img src="./src/jugador-placeholder.svg">
+<span>Amallah</span>
+</div>
 
-            <div id="historiaCardDer1">
-                <p>Semifinalista del Mundial Catar 2022</p>
+<!-- DEFENSA -->
+<div class="jugador" data-nombre="Mazraoui" data-pos="LD" data-suplentes="Varela" style="top:70%; left:85%;">
+<img src="./src/jugador-placeholder.svg">
+<span>Mazraoui</span>
+</div>
 
-                <img src="./src/insignea.png" alt="">
-            </div>
-            <div id="historiaCardDer2">
-                <p>Primer equipo africano en pasar a octavos</p>
+<div class="jugador" data-nombre="Aguerd" data-pos="DFC" data-suplentes="Saiss" style="top:75%; left:60%;">
+<img src="./src/jugador-placeholder.svg">
+<span>Aguerd</span>
+</div>
 
-                <img src="./src/insignea.png" alt="">
-            </div>
-            <div id="historiaCardDer3">
-                <p>Campeón de la Copa Africana de Naciones</p>
+<div class="jugador" data-nombre="Saiss" data-pos="DFC" data-suplentes="El Yamiq" style="top:75%; left:40%;">
+<img src="./src/jugador-placeholder.svg">
+<span>Saiss</span>
+</div>
 
-                <img src="./src/insignea.png" alt="">
-            </div>
+<div class="jugador" data-nombre="Attiat-Allah" data-pos="LI" data-suplentes="Masina" style="top:70%; left:15%;">
+<img src="./src/jugador-placeholder.svg">
+<span>Attiat</span>
+</div>
 
-            <p id="ultimop">De los Leones del Atlas al escenario mundial: Marruecos hizo historia y quiere seguir soñando.
-            </p>
-        </div>
-    </section>
-    <section class="vestimenta">
-           <img id="separadorHistoria"src="./src/separadorVestimenta.png" alt="">
-   
-        <div>
-            <div class="vestimentaTxt">
-                    <p>
-                Vestimenta de la Selección de Marruecos 🇲🇦
-                La camiseta de la Selección de Marruecos mantiene los colores de la bandera nacional, principalmente el rojo y verde, que representan identidad y orgullo del país.
-                El uniforme titular suele ser rojo con detalles verdes, mientras que el alternativo cambia a tonos blancos o claros con detalles en rojo o verde. En los últimos años, los diseños han combinado elementos modernos con símbolos tradicionales marroquíes.
-                Además, la equipación suele incluir detalles inspirados en la cultura del país, manteniendo una estética simple pero elegante, reconocible en todo el mundo.
+<!-- ARQUERO -->
+<div class="jugador" data-nombre="Bono" data-pos="Arquero" data-suplentes="Munir, Benabid" style="top:88%; left:50%;">
+<img id="imagenmodal"src="./src/bonou.png">
+<span>Bonou</span>
+</div>
 
-            </p>
-            </div>
-              <img src="./src/vestimenta.png" alt="">
-        </div>
-      
-    </section>
+</section>
+
+<!-- MODAL -->
+<div class="modal">
+
+<div class="card">
+
+<button class="cerrar">✖</button>
+
+<img id="imagenmodal">
+<h1 id="nombre"></h1>
+
+<p id="pos"></p>
+
+<h3>Suplentes</h3>
+
+<ul id="lista"></ul>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
